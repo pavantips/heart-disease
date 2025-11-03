@@ -1,18 +1,21 @@
-# Diabetes Prediction App
+# Heart Disease Prediction App
 
 A machine learning web app that predicts diabetes risk based on patient health metrics.
 
 ## Model Performance
 
-- Accuracy: 74.7%
-- Precision: 63.8%
-- Recall: 67.3%
-- F1 Score: 65.5%
+Accuracy: 0.845
+Precision: 0.703
+Recall: 0.812
+F1: 0.754
+Confusion Matrix:
+[[67 11]
+ [ 6 26]]
 
 ## Features
 
 - Logistic Regression classifier
-- Trained on diabetes dataset
+- Trained on heart disease dataset
 - Interactive Streamlit interface
 
 ## Tech Stack
@@ -20,7 +23,7 @@ A machine learning web app that predicts diabetes risk based on patient health m
 - Python 3.11
 - scikit-learn (Logistic Regression)
 - Streamlit
-- pandas, numpy
+- pandas, numpy, joblib
 
 ## How to Run Locally
 
